@@ -3,7 +3,7 @@
 [![test](https://github.com/Rhapsydian/pixelloom/actions/workflows/test.yml/badge.svg)](https://github.com/Rhapsydian/pixelloom/actions/workflows/test.yml)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
-Traces the "on" pixels of a grid into a compact SVG path, instead of drawing one `<rect>` per pixel.
+Converts a pixel grid (think a bitmap mask or pixel art) into one optimized SVG `<path>` by tracing the boundary between filled and empty cells, rather than drawing a `<rect>` for every pixel.
 
 **Live demo:** _coming soon_ — a separate, browser-based playground for painting a grid and watching the traced path update live.
 
