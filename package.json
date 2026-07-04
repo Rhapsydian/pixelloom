@@ -1,0 +1,36 @@
+{
+  "name": "pixelloom",
+  "version": "0.1.0",
+  "description": "Trace a pixel grid into an optimized SVG path via boundary tracing and edge merging.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "svg",
+    "pixel-art",
+    "bitmap",
+    "boundary-tracing",
+    "path-optimization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rhapsydian/pixelloom.git"
+  },
+  "homepage": "https://github.com/Rhapsydian/pixelloom#readme",
+  "bugs": {
+    "url": "https://github.com/Rhapsydian/pixelloom/issues"
+  }
+}
