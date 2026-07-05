@@ -1,6 +1,6 @@
 {
   "name": "pixelloom",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Trace a pixel grid into an optimized SVG path via boundary tracing and edge merging.",
   "type": "module",
   "exports": {
