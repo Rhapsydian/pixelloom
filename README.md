@@ -5,7 +5,7 @@
 
 Converts a pixel grid (think a bitmap mask or pixel art) into one optimized SVG `<path>` by tracing the boundary between filled and empty cells, rather than drawing a `<rect>` for every pixel.
 
-**Live demo:** _coming soon_ — a separate, browser-based playground for painting a grid and watching the traced path update live.
+**Live demo:** [rhapsydian.github.io/pixelloom-playground](https://rhapsydian.github.io/pixelloom-playground/) — paint a grid and watch the traced path update live, including a size comparison against the naive `<rect>`-per-pixel approach.
 
 ## How it works
 
